@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Marvel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Encuesta sobre Marvel</h1>
+    <form id="marvelForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <p>¿Cuál es tu personaje favorito de Marvel?</p>
+        <input type="text" id="personaje_favorito" name="personaje_favorito" required><br><br>
+
+        <p>¿Cuántas películas de Marvel has visto?</p>
+        <input type="number" id="peliculas_vistas" name="peliculas_vistas" required><br><br>
+
+        <p>¿Te gustan los cómics de Marvel?</p>
+        <input type="radio" id="comics_si" name="comics" value="si" required>
+        <label for="comics_si">Sí</label>
+        <input type="radio" id="comics_no" name="comics" value="no" required>
+        <label for="comics_no">No</label><br><br>
+
+        <p>¿Qué series de Marvel has visto? (Selecciona todas las que apliquen)</p>
+        <input type="checkbox" id="serie_daredevil" name="series" value="Daredevil">
+        <label for="serie_daredevil">Daredevil</label>
+        <input type="checkbox" id="serie_luke_cage" name="series" value="Luke Cage">
+        <label for="serie_luke_cage">Luke Cage</label>
+        <input type="checkbox" id="serie_jessica_jones" name="series" value="Jessica Jones">
+        <label for="serie_jessica_jones">Jessica Jones</label>
+        <input type="checkbox" id="serie_iron_fist" name="series" value="Iron Fist">
+        <label for="serie_iron_fist">Iron Fist</label>
+        <input type="checkbox" id="serie_punisher" name="series" value="Punisher">
+        <label for="serie_punisher">Punisher</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

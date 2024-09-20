@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #202020;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #e62429;
+    text-align: center;
+}
+
+form {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 700px; /* Aumentar el ancho máximo */
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 22px); /* Ajustar el ancho para evitar sobresalir */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #444444;
+    color: #ffffff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #e62429;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto; /* Centrar el botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #c51d23;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+label[for="comics_si"],
+label[for="comics_no"],
+label[for="serie_daredevil"],
+label[for="serie_luke_cage"],
+label[for="serie_jessica_jones"],
+label[for="serie_iron_fist"],
+label[for="serie_punisher"] {
+    display: inline;
+    margin-right: 20px;
+}
